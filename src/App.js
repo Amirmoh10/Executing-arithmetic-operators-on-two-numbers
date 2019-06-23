@@ -7,7 +7,7 @@ class App extends React.Component {
     this.state = {
       firstnumber: 0,
       secondnumber: 0,
-      operator: "",
+      operator: "+",
       result: 0
     };
     this.firstnumaction = this.firstnumaction.bind(this);
