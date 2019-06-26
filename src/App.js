@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-class Calculator extends React.Component {
+class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -72,4 +72,4 @@ class Calculator extends React.Component {
   }
 }
 
-export default Calculator;
+export default App;
