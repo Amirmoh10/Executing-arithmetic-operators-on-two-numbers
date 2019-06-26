@@ -65,7 +65,7 @@ class App extends React.Component {
           <input type="button" onClick={this.ExecuteAction} value="Execute" />
           <div />
           <br />
-          <input type="text" value={this.state.result} readOnly />
+          <input type="text" value={this.state.result}  />
         </label>
       </form>
     );
